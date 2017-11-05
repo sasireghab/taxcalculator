@@ -1,5 +1,8 @@
 package com.tax.calculation;
 
+/*
+ * This is the client class for calculate the tax
+ */
 public class ResultClass {
 
 	public static void main(String[] args) {

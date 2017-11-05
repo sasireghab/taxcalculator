@@ -1,7 +1,17 @@
 package com.tax.calculation;
 
+/*
+ * Implement the tax calculation interface
+ */
 public class SalaryClass implements ITaxCalculation{
-
+	
+	/*
+	 * This method is used to calculating the income tax
+	 * 
+	 * @param salary, gross salary to calculate tax
+	 * 
+	 * @return netSalary, calculated netSalary
+	 */
 	public double calculate(double salary)
 	{
 		double tax = 0;
